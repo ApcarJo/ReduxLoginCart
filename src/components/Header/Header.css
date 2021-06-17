@@ -1,0 +1,38 @@
+
+.vistaHeader {
+    height: 10em;
+    
+    background-color: blue;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 3em;
+    align-items: flex-end;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.linkLogin:hover{
+    color: black;
+    transition: 0.3s;
+    margin-left: 2em;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.tap {
+    margin-left: 3em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.tap:hover {
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+}

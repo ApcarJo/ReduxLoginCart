@@ -1,0 +1,27 @@
+
+.vistaMenu {
+    width: 25em;
+    height: 35em;
+
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonPersonajes {
+
+    width: 5em;
+    height: 2.5em;
+
+    background-color: red;
+    border-radius: 25%;     
+    transition : 0.5s;
+}
+
+.botonPersonajes:hover {
+    background-color: darkred;
+    transition: 0.5s;
+}
